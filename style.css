@@ -1,0 +1,71 @@
+
+body {
+    background-color:green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: gray;
+    width: 600px;
+    margin: 20vh auto 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin:0px 15px 10px 15px;
+    border: 1px solid yellow;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#admissionForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#emailRecovery{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
